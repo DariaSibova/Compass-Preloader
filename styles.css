@@ -91,3 +91,14 @@ body {
     transform: rotate(720deg);
   }
 }
+@keyframes ringStroke {
+  from,
+  to {
+    stroke-dashoffset: 452;
+    transform: rotate(-45deg);
+  }
+  50% {
+    stroke-dashoffset: 169.5;
+    transform: rotate(-180deg);
+  }
+}
