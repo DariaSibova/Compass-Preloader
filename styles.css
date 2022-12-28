@@ -20,3 +20,8 @@ body {
   display: grid;
   place-items: center;
 }
+.pl {
+  display: block;
+  width: 9.375em;
+  height: 9.375em;
+}
